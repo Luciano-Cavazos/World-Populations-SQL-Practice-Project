@@ -24,7 +24,7 @@ WHERE population >100 AND year='2010';
 
 --How many countries in this dataset have the word “Islands” in their name?
 
-SELECT COUNT (DISTINCT(country)) as 'Distinct countries with the world "Islands" in their name'
+SELECT COUNT (DISTINCT(country)) AS 'Distinct countries with the world "Islands" in their name'
 FROM population_years
 WHERE country LIKE "%Islands%";
 
