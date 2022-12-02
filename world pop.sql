@@ -1,6 +1,6 @@
 -- This is the first query:
 
-SELECT DISTINCT year from population_years;
+SELECT DISTINCT year FROM population_years;
 
 --What years are covered by the dataset?
 -- 2000-2010
